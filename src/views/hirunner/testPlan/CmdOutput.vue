@@ -67,7 +67,7 @@ export default {
     },
     getDetail() {
       this.$http.get(`/hirunner/runHistory/${this.id}`).then(({ data }) => {
-        this.testPlanResultForm.output = "";
+        this.testPlanResultForm.output = data.output;
       });
     },
   },
