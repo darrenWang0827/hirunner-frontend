@@ -1,5 +1,8 @@
 # hirunner-frontend
 
+# 安装
+npm install 或者yarn install
+
 # 配置文件  
 开发环境.env.development
 生产环境.env.production
